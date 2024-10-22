@@ -6,13 +6,13 @@ public class Main {
 		 * Tipi di Dato: 
 		 * 	Numerici: 
 		 * 		Interi: 
-		 * 			byte -> (8 bit) [-127/127] ;
-		 * 			short -> (16 bit) [-32768 / 32768] ;
-		 * 			int -> (32 bit) [-2147483648 / 2147483648] ;
+		 * 			byte -> (8 bit) [-127 / 127] 
+		 * 			short -> (16 bit) [-32768 / 32768] 
+		 * 			int -> (32 bit) [-2147483648 / 2147483648] 
 		 * 			long -> (64 bit)
-		 * 			char -> (16 bit) [0 / 65535] ;
+		 * 			char -> (16 bit) [0 / 65535] 
 		 * 		Virgola Mobile: 
-		 * 			float -> (32 bit) ;
+		 * 			float -> (32 bit)
 		 * 			double -> (64 bit) 
 		 * Boolean: 
 		 * 		True / False

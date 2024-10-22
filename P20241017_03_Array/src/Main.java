@@ -7,49 +7,43 @@ public class Main {
 		 * Creiamo un array di 10 Cibi (che sarebbe il pranzo o la cena)
 		 */
 
-		Cibo[] menu = new Cibo[10];
-		for (int i=0; i<menu.length; i++) {
-			menu[i] = (Cibo)ParseClass.Parse("Cibo");
-		}
+//		Cibo[] menu = new Cibo[10];
+//		for (int i=0; i<menu.length; i++) {
+//			menu[i] = (Cibo)ParseClass.Parse("Cibo");
+//		}
 		
+//		for (int i=0; i<menu.length; i++) {
+//		System.out.println(menu[i]);
+//		}
+//		double sommaCalorie = 0;
+//		for (int i = 0; i < menu.length; i++) {
+//			sommaCalorie += menu[i].getCalorie();
+//		}
+//		System.out.println(sommaCalorie);
+		
+		
+		//PRIMI 
 		Cibo[] primi = new Cibo[10];
 		for (int i=0; i<primi.length; i++) {
 			primi[i] = (Cibo)ParseClass.Parse("Cibo");
-		}
-		
-		Cibo[] secondi = new Cibo[10];
-		for (int i=0; i<secondi.length; i++) {
-			secondi[i] = (Cibo)ParseClass.Parse("Cibo");
-		}
-		
-		Cibo[] dolci = new Cibo[10];
-		for (int i=0; i<dolci.length; i++) {
-			dolci[i] = (Cibo)ParseClass.Parse("Cibo");
-		}
-		
-		for (int i=0; i<menu.length; i++) {
-			System.out.println(menu[i]);
-		}
-		
-		for (int i=0; i<primi.length; i++) {
 			System.out.println(primi[i]);
 		}
 		
+		//SECONDI
+		Cibo[] secondi = new Cibo[10];
 		for (int i=0; i<secondi.length; i++) {
+			secondi[i] = (Cibo)ParseClass.Parse("Cibo");
 			System.out.println(secondi[i]);
 		}
 		
+		//DOLCI
+		Cibo[] dolci = new Cibo[10];
 		for (int i=0; i<dolci.length; i++) {
+			dolci[i] = (Cibo)ParseClass.Parse("Cibo");
 			System.out.println(dolci[i]);
 		}
 		
-		double sommaCalorie = 0;
-		for (int i = 0; i < menu.length; i++) {
-			sommaCalorie += menu[i].getCalorie();
-		}
-		System.out.println(sommaCalorie);
-		
-		
+		//ISTANZIO LISTA INVITATI E ASSEGNO PORTATE
 		Invitato[] invitati = new Invitato[50];
 		for (int i = 0; i < invitati.length; i++) {
 			invitati[i].nome = "persona " + i;
@@ -61,6 +55,7 @@ public class Main {
 			invitati[i].setDolce(dolci[dolceN]);
 		}
 		
+		//OP INVITATI
 		for (int i = 0; i < invitati.length; i++) {
 			System.out.println(invitati[i]);
 		}
